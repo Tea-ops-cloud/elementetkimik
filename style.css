@@ -1,0 +1,135 @@
+/* Përcaktimi i ngjyrave kryesore */
+:root {
+    --blu: #4A90E2;
+    --lejla: #6A0DAD;
+    --bardhe: #ffffff;
+    --gri-e-lehte: #f2f2f2;
+    --gri-e-erret: #333;
+}
+
+/* Reset i stilit */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--gri-e-lehte);
+    color: var(--gri-e-erret);
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, var(--blu), var(--lejla));
+    color: var(--bardhe);
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--bardhe);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Header-i */
+header {
+    background: linear-gradient(90deg, #ff7eb3, #ff758c, #ff9a44, #ffcc33);
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+    position: relative;
+    overflow: hidden; /* Që imazhi të mos dalë jashtë */
+}
+
+/* Kontejneri brenda header-it */
+.header-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+ {
+    position: absolute;
+    top: 30%;
+    left: -100px; /* Fillon jashtë ekranit në të majtë */
+    width: 30px;
+    transform: translateY(-50%);
+    
+}
+
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: var(--lejla);
+    color: var(--bardhe);
+}
+
+.hero .button {
+    background: var(--blu);
+    color: var(--bardhe);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Seksionet */
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background: var(--bardhe);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#elementet .element {
+    background: var(--gri-e-lehte);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Kontakt */
+form input, form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid var(--blu);
+    border-radius: 5px;
+}
+
+form button {
+    background: var(--blu);
+    color: var(--bardhe);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: var(--lejla);
+    color: var(--bardhe);
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
